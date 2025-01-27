@@ -2,7 +2,9 @@
     "name": "@repo/db",
     "version": "0.0.0",
     "dependencies": {
-        "@prisma/client": "^6.2.1"
+        "@prisma/client": "^6.2.1",
+        "@types/node": "^22.10.10",
+        "zod-prisma-types": "^3.2.1"
     },
     "scripts": {
         "db:generate": "prisma generate",
@@ -15,5 +17,5 @@
     },
     "exports": {
         ".": "./src/index.ts"
-    } 
+    }
 }
